@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+ /* height: 100vh;*/
+}
+#nav-1 {
+  height:8vh;
+}
+
+.con-1, .con-2, .con-3 {
+  display: flex;
+  height: 87vh; /* 87vh*/
+  margin-bottom: 0px;
+  flex-direction: column wrap; /* wraps the <p>s*/
+  /*max-width: 50%;*/
+ /* max-height: 100vh;*/
+}
+
+
+/*Email Column 1*/
+.con-1 {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid rgb(206, 177, 177);
+  border-radius: 10px;
+ /* justify-content - Dont Use This */
+}
+
+/*Image for Col-1*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*welcome*/
+h3 {  
+  font-family: "Sofia", sans-serif;
+  color:rgb(115, 61, 165);
+}
+
+/*Email Links*/
+.links {
+  display: flex;
+  font-family: "Trirong", serif;
+  height:50vh;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.7;
+  gap:50px;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(179, 84, 131);
+} 
+
+
+
+
+.column-footer {
+  display: flex;
+  height:5vh;
+  background-color:rgb(163, 160, 160);
+  color:white;
+  font-size:14px;
+  padding:0px;
+  margin:0px;
+}
+  
+
+  
+  
+  
