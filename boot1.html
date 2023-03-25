@@ -1,89 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Project</title>
+  <title>✉ Email ✨</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!--BootStrap v5.3 Link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<!--Google Font-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--Google Font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
-  
+
 <link rel="stylesheet" href="boot2.css">
 
 <body>
 
   <!-- Nav Bar -->
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="nav-1">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">Email</a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="nav-1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><h4>📧</h4></a>
 
-    <button class="navbar-toggler" type="button" title="Tittle" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" title="Tittle" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">⌂ Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">✉ Compose</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">➱ Sign-Out</a>    
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Enter</button>
-      </form>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">📬 Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">📃 Compose</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">➱ Sign-Out</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Enter</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!--Container-->
-<div class="container-fluid">
-  <div class="row">
-    
-    <div class="col-sm-2 col-sm-2 text-dark pt-4 con-1">
-      <h3>Welcome!</h3><br>
+  <div class="container-fluid" id="body-container">
+    <div class="row h-100">
 
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeGnZYD5ExZcMW4xV-c8xOUTeDZwtqDOVz3A&usqp=CAU" alt="Image star" width="115" height="115" class="center">
 
-      <!--Make a seperate div for the email links-->
-      <!--Email Links-->
-      <div class="col-md-1 links">
-      
-      <p><u><h5><a href="javascript:void(0)">Inbox</a></p><br>
-      <p><a href="javascript:void(0)">Sent</a></p><br>
-      <p><a href="javascript:void(0)">Junk</a></p><br>
-      <p><a href="javascript:void(0)">Trash</a></h5></u></p>
-      </div> <!--links div-->
-    </div> <!-- column-1 div-->
+      <!-- Column1 -->
+      <div class="col-12 col-md-2 pt-3 text-dark text-wrap h-100">
+        <h3>Welcome!</h3><br>
 
-    <div class="col-sm-4 bg-light text-dark con-2">
-    <h2>Container 2</h2><br>
-     <p>Text Goes Here</p>     
-    </div> <!-- column-2 div-->
+        <img src="https://wallpapercave.com/wp/wp10104082.png"
+          alt="Image star" width="118" height="118" id="image"> 
 
-    <div class="grid-cols-10 col-sm-6 bg-dark text-light con-3"> 
-    <h2>Container 3</h2>
-     <p>Text Goes Here</p>
-    </div> <!-- column-3 div-->
-  
-    
-    <div class="grid-cols-1 col fixed-bottom column-footer">
-      <p>Terms · Privacy · Program Policies</p>
-    </div> <!--footer div-->
-    
-  </div> <!--row div-->
-</div> <!--container-fluid div-->
-  
+        
+        <!--Email Links--> 
+        <div class="col-md-1" id="links">
+
+          <p><u>
+          <h5><a href="javascript:void(0)">📩<b>Inbox 2</b></a></p><br>
+          <p><a href="javascript:void(0)">📨Sent</a></p><br>
+          <p><a href="javascript:void(0)">🚫Junk</a></p><br>
+          <p><a href="javascript:void(0)">🗑️Trash</a></h5></u></p>
+        </div>  <!--links div-->
+      </div>  <!-- column-1 div-->
+
+
+
+      <!-- Column2 -->
+      <div class="col-12 col-md-10 container h-100">
+        <div class="row h-100">
+
+
+          <!-- column 2.1 --> 
+          <div class="col-12 col-lg-4 pt-5 text-dark" id="col-2-1">
+            <div class="con-2" style="display:inline-block">
+            
+            <h5><a id="inbox-view" href="javascript:void(0)">»» Inbox View ««</a></h5><br>
+              
+             <div id="email-box"> 
+               <!--Email Column List--> 
+             <br><p><a href="javascript:void(0)">☑ ☆ <b>
+             Bay Valley Tech Team</a></b>&nbsp;&nbsp;&nbsp;<small>1:00 pm</small><br> 
+             Welcome New Cohorts!</p><br>
+            <p><a href="javascript:void(0)">☐ ☆ <b>Canva</a></b>&nbsp;&nbsp;&nbsp;<small>Mon 03/20</small><br> 
+             Love your latest design!</p><br> 
+            <p><a href="javascript:void(0)">☐ ☆ LinkedIn</a>&nbsp;&nbsp;&nbsp;<small>Fri 3/17</small><br>
+             Thanks for being a valued member!</p><br> 
+            <p><a href="javascript:void(0)">☐ ☆ No-Reply</a>&nbsp;&nbsp;&nbsp;<small>Thurs 3/16</small><br>
+             Your appoinment confirmation  🖇️</p><br> 
+              </div> <!-- end of email column List-->
+            </div> <!-- end of con-2-->
+          </div> <!-- end of column-2.1 div-->
+
+
+          <!-- column 2.2 -->
+          <div class="col-12 col-lg-8 text-light" id="col-2-2">
+            <div class="con-3 pt-5" style="display:inline-block">
+
+              <!--Div for email header --> 
+            <div class="border-top border-1 text-wrap" id="heading">
+              <h4><p>Welcome New Cohorts!</h4>  
+               <!-- Letter B image + email -->
+               <img src="https://www.kindpng.com/picc/m/52-521508_clipart-apples-capital-letter-letter-b-inside-a.png"
+              alt="Image star" width="40" height="40" id="image2">
+              <strong>Bay Valley Tech Team</strong>&nbsp;&nbsp;<small>info@bayvalleytech.com</small>
+              <small id="date">Mar 22, 2023, 9:54 AM</small></p>
+           </div> <!--End of heading-->
+
+
+             <!-- Div for email body -->  
+             <div class="border-bottom border-1" id="view-box">
+             <p>Bay Valley Tech will be starting a new cohort!<br>Congratulations to the 30 new Code Academy students and 15 students joining the Digital Skills Bootcamp. <br><br>
+              
+             Help us welcome these new students and support them in their exciting journey through Bay Valley Tech's training programs and in becoming part of our amazing tech community. And don't forget to connect with them on LinkedIn.<br><br><i>The Bay Valley Tech Team<i>
+              </p><br><br>
+
+              <!-- Reply /  Forward Buttons -->
+              <button type="button" class="btn btn-secondary" id="button1">⇠ Reply</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="button" class="btn btn-secondary" id="button2">⇢ Forward</button>
+              
+              </div> <!-- end div of view-box -->
+             </div> <!-- end of con-3-->
+           </div> <!-- end of column-2.2 div-->
+
+
+        </div> <!-- end of row-->
+      </div> <!-- End of Column 2 -->
+
+
+
+    </div> <!--end of main row div-->
+  </div> <!--end of main container-fluid div-->
+
+
+  <!-- Div footer -->
+  <div class="grid-cols-1 col fixed-bottom" id="column-footer">
+    <p>Terms · Privacy · Program Policies</p>
+  </div> <!--end of footer div-->
+
 
 </body>
+
 </html>
-
-
